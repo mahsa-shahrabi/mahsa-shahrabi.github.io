@@ -1,0 +1,342 @@
+@media screen and (max-width:575px){
+    #email-fs-1{
+        font-size: 10px;
+    }
+    #email-fs-1>i{
+        font-size: 14px;
+    }
+    #image-small{
+        width: 230px;
+        height: 230px;
+        border: 15px solid #100e17;
+        outline: 15px solid black;
+        margin-top: 120px;
+    }
+    #hello-small{
+        margin-top: 100px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px){
+    #image-small{
+        margin-top: 120px;
+    }
+    #hello-small{
+        margin-top: 120px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    #image-small{
+        margin-top: 120px;
+    }
+    #hello-small{
+        margin-top: 120px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    #email-fs-2{
+        font-size: 14px;
+    }
+    #send{
+        width: 20% !important;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1399px){
+    .nav-fs{
+        font-size: 20px !important;
+    }
+    #send{
+        width: 20% !important;
+    }
+}
+@media screen and (min-width:1400px){
+    .nav-fs{
+        font-size: 20px !important;
+    }
+    #send{
+        width: 20% !important;
+    }
+}
+
+
+body{
+    background-color: #100e17;
+}
+.heading{
+    font-size: 30px;
+    color: #e7e7e8;
+}
+.text-color-1{
+    color: #e7e7e8;
+}
+.text-color-2{
+    color: #0bbba0;
+}
+.no-hover:hover{
+    color: #e7e7e8;
+}
+.no-hover-2:hover{
+    color: #0bbba0;
+}
+.button-hover:hover{
+    color: #0bbba0;
+    background-color: #e7e7e8;
+}
+.box{
+    background-color: #1e1e24;
+    box-shadow: -15px 0 45px black;
+    box-sizing: border-box;
+}
+
+
+.nav-fs{
+    color: #e7e7e8 !important;
+}
+#custom-navbar li a:hover{
+    color: #0bbba0 !important;
+}
+#custom-navbar>li>a::after{
+    content: "";
+    display: block;
+    border-bottom: 2px solid #0bbba0;
+    -moz-transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -moz-transition: all 200ms linear 0s;
+    -webkit-transition: all 200ms linear 0s;
+    transition: all 200ms linear 0s;
+}
+#custom-navbar>li>a:hover::after{
+    -moz-transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+
+
+.hello>div{
+    width: 120px;
+    height: 40px;
+    background-color: #0bbba0;
+    line-height: 40px;
+    font-size: 15px;
+    margin-top: 200px;
+    border-radius: 20px 20px 20px 0;
+}
+.hello>p{
+    font-size: 14px;
+}
+.hello>p:hover i{
+    color: #0bbba0;
+}
+.hello>a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    -moz-transition: all 200ms linear 0s;
+    -webkit-transition: all 200ms linear 0s;
+    transition: all 200ms linear 0s;
+}
+.hello>a:hover{
+    background-color: #e7e7e8;
+    color: #0bbba0;
+}
+.image{
+    width: 350px;
+    height: 350px;
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    margin-top: 180px;
+    border: 20px solid #100e17;
+    outline: 20px solid black;
+    box-sizing: border-box;
+}
+
+
+
+.about>ul{
+    list-style-type: none;
+}
+.about>ul>li{
+    border: 1px solid #0bbba0;
+}
+.about>a{
+    width: 190px;
+    height: 50px;
+    background-color: #0bbba0;
+    line-height: 50px;
+}
+
+
+.custom-progress{
+    width: 100%;
+    height: 10px;
+    clear: both;
+}
+.custom-progress>div{
+    background-color: #0bbba0;
+}
+.text-progress>p{
+    font-size: 14px;
+}
+#custom-progress1{
+    width: 90%;
+}
+#custom-progress2{
+    width: 80%;
+}
+#custom-progress3{
+    width: 60%;
+}
+#custom-progress4{
+    width: 70%;
+}
+#custom-progress5{
+    width: 60%;
+}
+#custom-progress6{
+    width: 80%;
+}
+#custom-progress7{
+    width: 70%;
+}
+#custom-progress8{
+    width: 60%;
+}
+
+
+.Portfolio-ul{
+    list-style-type: none;
+}
+.Portfolio-ul>li{
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+}
+.portfolio-border-bottom{
+    border-bottom: 3px solid #0bbba0;
+}
+.Portfolio1{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.Portfolio1>a>img{
+    height: 250px;
+}
+.Portfolio2{
+    display: none;
+    background-color: rgba(11, 187, 160, 0.9);
+    overflow: hidden;
+}
+.Portfolio1:hover .Portfolio2{
+    display: block;  
+}
+.portfolio-text{
+    list-style-type: none;   
+}
+@keyframes animate1{
+    from{
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+    to{
+        transform: scaleX(1);
+        transform-origin: right;
+    }
+}
+@keyframes animate2{
+    from{
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+    to{
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+}
+.portfolio-text-1{
+    -moz-animation: animate1 300ms linear 0s;
+    -webkit-animation: animate1 300ms linear 0s;
+    animation: animate1 300ms linear 0s;
+}
+.portfolio-text-2{
+    -moz-animation: animate2 300ms linear 0s;
+    -webkit-animation: animate2 300ms linear 0s;
+    animation: animate2 300ms linear 0s;
+}
+
+
+.price-table>ul{
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: -30px;
+}
+.price-table>a{
+    width: 120px;
+    height: 40px;
+    background-color: #0bbba0;
+    line-height: 40px;
+}
+
+
+.featured-posts{
+    -moz-transition: all 300ms linear 0s;
+    -webkit-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+}
+.featured-posts:hover{
+    color: #0bbba0;
+}
+
+
+.image-border{
+    border: 6px solid #0bbba0;
+    border-radius: 50%;
+}
+
+
+
+.contact{
+    background-image: url(../images/map-color-overlay.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2400px;
+}
+.contact-way{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #0bbba0;
+}
+.contact-way>p{
+    line-height: 100px;
+    font-size: 20px;
+}
+.contact h3{
+    font-size: 24px;
+    margin: 30px 0 20px 0;
+}
+
+
+.message input{
+    background-color: rgba(0, 0, 0, 0);
+    outline: 0;
+    height: 50px;
+}
+.message textarea{
+    height: 200px;
+    outline: 0;
+    resize: none;
+}
+#send{
+    background-color: rgba(11, 187, 160, 0.6);
+    font-size: 18px;
+    color: #e7e7e8;
+}
+#send:hover{
+    color: #0bbba0;
+    background-color: #e7e7e8;
+}
